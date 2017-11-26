@@ -1,0 +1,12 @@
+{
+  "extends": [
+    "prettier"
+  ],
+  "parserOptions": {
+    "ecmaVersion": 2015
+  },
+  "env": {
+    "mocha": true,
+    "node": true
+  }
+}

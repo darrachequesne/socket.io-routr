@@ -1,0 +1,35 @@
+{
+  "name": "socket.io-routr",
+  "version": "1.0.0",
+  "description": "",
+  "main": "lib/index.js",
+  "scripts": {
+    "lint": "eslint lib/ test/",
+    "test": "npm run lint && mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/darrachequesne/socket.io-routr.git"
+  },
+  "author": "Damien Arrachequesne <damien.arrachequesne@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/darrachequesne/socket.io-routr/issues"
+  },
+  "homepage": "https://github.com/darrachequesne/socket.io-routr#readme",
+  "dependencies": {
+    "debug": "^3.0.0",
+    "http-proxy": "^1.16.2"
+  },
+  "devDependencies": {
+    "eslint": "^4.4.1",
+    "eslint-config-prettier": "^2.3.0",
+    "mocha": "^4.0.1",
+    "redis": "^2.8.0",
+    "socket.io": "^2.0.4",
+    "socket.io-client": "^2.0.4"
+  },
+  "files": [
+    "lib/"
+  ]
+}
